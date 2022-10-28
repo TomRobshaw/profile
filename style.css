@@ -1,0 +1,91 @@
+body {
+  color: #06321E;
+  background-color: #faf2e5;
+  font-family:'Manrope', sans-serif;
+}
+#title-style {
+  display: flex;
+  justify-content: left;
+  padding: 0;
+  margin: 0;
+}
+#title-style img {
+  width: 450;
+}
+#title-style h1 {
+  width: 450;
+}
+
+img {
+  border-radius: 10px;
+  margin: 32px;
+}
+#location {
+  font-weight: 400;
+}
+p {
+  font-weight: 550;
+}
+.div-color {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 32px;
+  margin: 32px;
+  box-shadow: 2px 2px 20px #aea7949c;
+}
+.div-color:hover {
+  background-color: #EBC497;
+}
+.list-align {
+  display: inline-block;
+  font-size: 50px;
+  margin: 8px;
+  padding-left: 0px;
+  list-style: none;
+  color: #06321E
+}
+.list-align i {
+  color: #06321E
+}
+.list-align i:hover {
+  color:#f6f1eb
+}
+.container {
+  width: 900px;
+
+}
+a:visited {
+  text-decoration: none;
+ }
+.div-founder {
+  padding: 0;
+  margin: 0;
+}
+
+ .div-founder img{
+  vertical-align: middle;
+  margin-left: 5px;
+ }
+ul {
+  padding: 0;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
